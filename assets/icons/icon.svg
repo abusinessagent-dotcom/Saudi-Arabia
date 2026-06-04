@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <!-- Black background -->
+  <rect width="64" height="64" rx="12" fill="#000000"/>
+  <!-- Gold diamond shape matching .logo-icon in CSS -->
+  <polygon
+    points="32,8 52,32 32,56 12,32"
+    fill="url(#goldGrad)"
+    stroke="rgba(212,175,55,0.30)"
+    stroke-width="1"
+  />
+  <!-- Inner highlight for depth -->
+  <polygon
+    points="32,16 46,32 32,48 18,32"
+    fill="url(#goldInner)"
+    opacity="0.35"
+  />
+  <defs>
+    <linearGradient id="goldGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%"   stop-color="#d4af37"/>
+      <stop offset="100%" stop-color="#e8cc6a"/>
+    </linearGradient>
+    <radialGradient id="goldInner" cx="50%" cy="40%">
+      <stop offset="0%"   stop-color="#fff" stop-opacity="0.60"/>
+      <stop offset="100%" stop-color="#d4af37" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+</svg>
